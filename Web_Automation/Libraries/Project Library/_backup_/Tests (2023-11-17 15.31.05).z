@@ -1,0 +1,6 @@
+﻿class OpenMatryxPage : MatryxsoftTechLLPAppState
+	Main()
+		MatryxsoftTechLLP.SetActive ()
+		Object MatryxsoftTechLLPGetAttr = MatryxsoftTechLLP.GetAttr ("BrowserType")
+		Print (MatryxsoftTechLLPGetAttr)
+		

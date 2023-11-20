@@ -1,0 +1,19 @@
+﻿class OpenMatryxPage : MatryxsoftTechLLPAppState
+	Main()
+		MatryxsoftTechLLP.SetActive ()
+		Object MatryxsoftTechLLPGetAttr = MatryxsoftTechLLP.GetAttr ("BrowserType")
+		Print (MatryxsoftTechLLPGetAttr)
+		
+class MatryxsoftTechLLPAppState : Test
+	OnStart()
+		// Use Project/Data... to change the BrowserType
+		WebBrowserType BrowserType = DataStore.Query ("BrowserType")
+		Web.SetBrowser(BrowserType)
+		UA.SetOption ("PageLoadTimeout",2)
+		if (MatryxsoftTechLLP.WaitUntilExists(0))
+			return
+		Web.SetBaseState ("https://www.matryxsoft.com/")
+		
+	OnFinish()
+		MatryxsoftTechLLP.Close()
+		

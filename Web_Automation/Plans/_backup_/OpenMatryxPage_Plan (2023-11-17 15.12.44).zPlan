@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Types CRC="7F276151"/>
+	<Declare>
+		<Attributes/>
+		<Variables/>
+	</Declare>
+	<Plans>
+		<Plan GUID="B06D60184F3B882BE69DCFBCBD3157F4">
+			<Name>OpenMatryxPage_Plan</Name>
+			<Nodes>
+				<Node GUID="EC1425FC47F4C6C70BCAD6BDC952A22B">
+					<Name>OpenMatryxPage</Name>
+					<Test Name="OpenMatryxPage" Class=""/>
+				</Node>
+				<Node GUID="928DB81E4096E4A695BB06B1ADD04A24"/>
+			</Nodes>
+		</Plan>
+	</Plans>
+</Project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RunProject>
+	<Run>
+		<RunDate>2023-11-17</RunDate>
+		<RunComputer>Msl06</RunComputer>
+		<RunNumber>6</RunNumber>
+		<RunEntity>OpenMatryxPage_Plan</RunEntity>
+	</Run>
+	<Project GUID="DC0438AA466A2BA0771B6FB56AC42CAF">
+		<Name>Web_Automation</Name>
+		<Types CRC="7F276151"/>
+		<Declare>
+			<Attributes>
+				<Attribute Name="RunCount" Type="Integer" Optional="true"/>
+				<Attribute Name="RunGroup" Type="String" Optional="true"/>
+				<Attribute Name="RunPriority" Type="Integer" Optional="true"/>
+			</Attributes>
+		</Declare>
+		<Plans>
+			<Plan GUID="B06D60184F3B882BE69DCFBCBD3157F4">
+				<Name>OpenMatryxPage_Plan</Name>
+				<Nodes>
+					<Node GUID="EC1425FC47F4C6C70BCAD6BDC952A22B">
+						<Name>OpenMatryxPage</Name>
+						<RunTest TestNumber="1"/>
+					</Node>
+				</Nodes>
+			</Plan>
+		</Plans>
+	</Project>
+</RunProject>
