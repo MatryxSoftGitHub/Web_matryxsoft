@@ -3,6 +3,7 @@
 		MatryxsoftTechLLP.SetActive ()
 		Object MatryxsoftTechLLPGetAttr = MatryxsoftTechLLP.GetAttr ("BrowserType")
 		Print (MatryxsoftTechLLPGetAttr)
+		Print (MatryxsoftTechLLPGetAttr)
 		
 class MatryxsoftTechLLPAppState : Test
 	OnStart()
