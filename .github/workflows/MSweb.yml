@@ -33,6 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           E:\AT.bat
-          sleep 20
+          sleep 21
           echo Add other actions to build,
           echo test, and deploy your project.
